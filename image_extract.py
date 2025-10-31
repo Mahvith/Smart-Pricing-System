@@ -6,13 +6,14 @@ from pydantic import BaseModel, ValidationError
 import requests
 import pandas as pd
 import time
+import dotenv
 
 class Features(BaseModel):
     country: str
     quality: str
     expiry: str
 
-client = genai.Client(api_key="AIzaSyBz-HUG4HHuJd8VNmmL0uH2Z8EEstSVO7w")
+client = genai.Client(api_key=dotenv.get_key(".env", "API_KEY"))
 
 
 # image_path = "https://m.media-amazon.com/images/I/51mo8htwTHL.jpg"
