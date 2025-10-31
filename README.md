@@ -108,4 +108,4 @@ Participants are **STRICTLY NOT ALLOWED** to obtain prices from the internet, ex
 
 
 ### To do things
-- [ ] add things to do like getting better embeddings & assign it to teammate.
+- [X] add things to do like getting better embeddings & assign it to teammate.
